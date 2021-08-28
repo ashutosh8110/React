@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import ExpenseItem from './Components/ExpenseItem';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         </a>
       </header>
 
-      <p>This also visible</p>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
