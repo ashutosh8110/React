@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <p>This also visible</p>
     </div>
   );
 }
