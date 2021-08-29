@@ -3,7 +3,7 @@ import Expense from './Components/Expenses';
 import './App.css';
 
 function App() {
-  const expenses= [
+  const items= [
     {id:'e1',title:'Car Insurance',amount: 294.67,date: new Date(2021, 2,28)},
     {id:'e2',title:'Grocery',amount: 29.67,date: new Date(2021, 3,25)},
     {id:'e3',title:'Dress',amount: 364.34,date: new Date(2021, 4,29)},
@@ -27,7 +27,7 @@ function App() {
           </a>
         </header>
       </div>
-      <Expense expenses={expenses}/>
+      <Expense expenses={items}/>
       </div>
   );
 }
