@@ -1,7 +1,7 @@
 import ExpenseItem from './ExpenseItem.js';
-import './NewExpenseItem.css'
+import './Expenses.css'
 
-function NewExpenseItem(props)
+function Expenses(props)
 {
     const expenses=props.expenses;
     return (
@@ -28,4 +28,4 @@ function NewExpenseItem(props)
         </div>)
 };
 
-export default NewExpenseItem;
+export default Expenses;

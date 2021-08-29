@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import NewExpenseItem from './Components/NewExpenseItem';
+import Expense from './Components/Expenses';
 import './App.css';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           </a>
         </header>
       </div>
-      <NewExpenseItem expenses={expenses}/>
+      <Expense expenses={expenses}/>
       </div>
   );
 }
