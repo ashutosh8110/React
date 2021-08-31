@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Expense from './Components/Expenses';
+import Expense from './Components/Expenses/Expenses.js';
 import './App.css';
 
 function App() {
