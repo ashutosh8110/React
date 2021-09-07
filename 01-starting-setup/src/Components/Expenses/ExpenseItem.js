@@ -5,7 +5,9 @@ import ExpenseDate from './ExpenseDate.js'
 
 
 function ExpenseItem(props){
+    console.log("state change");
     const [title,seTitle]=useState(props.title);
+    console.log('Evaluation');
     function clickHandler(){
         seTitle("updated");
         console.log(title);
