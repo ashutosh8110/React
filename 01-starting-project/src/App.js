@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import CourseGoalList from './components/CourseGoals/CourseGoalList/CourseGoalList';
 import CourseInput from './components/CourseGoals/CourseInput/CourseInput';
 import './App.css';
+import './temp.css';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
@@ -37,6 +38,7 @@ const App = () => {
 
   return (
     <div>
+      <div className="participant-avatar humanagent-circle"><span>T</span></div>
       <section id="goal-form">
         <CourseInput onAddGoal={addGoalHandler} />
       </section>
